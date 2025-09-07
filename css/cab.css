@@ -1,0 +1,70 @@
+.cab {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cab .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cab .profile-header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.cab .profile-info {
+    flex: 1;
+}
+
+.cab .profile-info h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.cab .profile-info p {
+    margin: 5px 0;
+}
+
+.cab .post {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.cab .post-content {
+    margin-bottom: 10px;
+}
+
+.cab .post-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cab .post-actions button {
+    background-color: #3b5998;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+    .cab .profile-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cab .profile-header img {
+        margin: 0 0 10px 0;
+    }
+}

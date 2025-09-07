@@ -1,0 +1,44 @@
+body{
+
+}
+a {
+    padding: 5px !important;
+    margin: 5px !important;
+
+}
+.dropdown-menu.show {
+    text-align: justify;
+    padding: 15px;
+    display: block;
+    
+}
+.navbar-toggler{
+    background: forestgreen !important;
+
+}
+.btnn{
+    background: lightblue !important;
+    border-radius:15px;
+    position: relative;
+left: 50%;
+transform: translate(-50%, 0);
+padding:15px !important;
+}
+.reg{
+    justify-content:center;
+    text-align:center;
+    padding:15px;
+    margin:15px;
+    border:solid black 3px;
+    border-radius:15px;
+}
+.log{
+    margin:15px;
+    padding:15px;
+}
+input{
+    margin:10px !important;
+}
+img{
+    border-radius:20px;
+}
